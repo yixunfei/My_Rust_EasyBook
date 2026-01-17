@@ -1,0 +1,11 @@
+[package]
+name = "toy_transformer_cli"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+toy_transformer_core = { path = "../corelib" }
+ndarray = "0.15"
+rand = "0.8"

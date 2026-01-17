@@ -1,0 +1,3 @@
+[workspace]
+members = ["corelib", "cli"]
+resolver = "2"
