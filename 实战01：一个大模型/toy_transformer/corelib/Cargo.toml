@@ -1,0 +1,10 @@
+[package]
+name = "toy_transformer_core"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+ndarray = "0.15"
+rand = "0.8"
+rand_distr = "0.4"
